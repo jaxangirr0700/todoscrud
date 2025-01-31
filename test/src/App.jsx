@@ -71,8 +71,8 @@ function App() {
         setInput={setInput}
       />
       <h1 className="text-center text-3xl  font-bold font-mono my-2">
-        {loader ? "Loading......" : "Umumiy son:" + filterTodo.length}
-      </h1>
+        {loader ? "Loading...... " : "Umumiy son:" + filterTodo.length}
+      </h1>      
       <FiltredItems filterTodo={filterTodo} isDone={isDone} Delete={Delete} />
     </div>
   );
